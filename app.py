@@ -6,7 +6,7 @@ import streamlit as st
 import qrcode
 
 st.set_page_config(page_title="Uzun Kod v6 Statik", page_icon="🧩", layout="wide")
-st.title("🧩 Uzun Kod Oluşturma Programı — Excel Şemalı (Statik Şema)")
+st.title("🧩 Uzun Kod Oluşturma Programı — v6 / Statik")
 
 @st.cache_data
 def read_schema(file)->dict:
