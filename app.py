@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import qrcode
 
-st.set_page_config(page_title="Uzun Kod (Excel Şemalı) • Statik", page_icon="🧩", layout="wide")
+st.set_page_config(page_title="Uzun Kod v6 Statik", page_icon="🧩", layout="wide")
 st.title("🧩 Uzun Kod Oluşturma Programı — Excel Şemalı (Statik Şema)")
 
 @st.cache_data
